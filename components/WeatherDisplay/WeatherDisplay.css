@@ -4,7 +4,7 @@
   align-items: center;
 }
 
-.weather-cards {
+.weather-card {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
