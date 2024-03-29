@@ -1,6 +1,6 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
-import styles from "./WeatherDisplay.module.css";
+import "./WeatherDisplay.css";
 import WeatherCard from "../WeatherCard/WeatherCard";
 
 const WeatherDisplay = ({ city }) => {
@@ -29,10 +29,10 @@ const WeatherDisplay = ({ city }) => {
   }, [city]);
 
   return (
-    <div className={styles.weatherDisplay}>
+    <div className="weatherDisplay">
       {loading && <p>Loading data...</p>}
       {!loading && weatherData && (
-        <div className={styles.weatherCards}>
+        <div className="weather-cards">
           <WeatherCard
             title="Temperature"
             data={`${weatherData.current.temp_c}°C`}
