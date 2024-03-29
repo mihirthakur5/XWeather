@@ -1,0 +1,18 @@
+.weatherCard {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.weatherCard h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.weatherCard p {
+  font-size: 18px;
+  margin: 0;
+}
